@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+/*Navigation Bar*/
+.nav_bar{
+    background-color: rgb(255, 149, 11);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  padding: 15px;
+}
+.nav_bar li{
+    list-style-type: none;
+    display: inline;      
+}
+.nav_bar ul{
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+.nav_bar a:hover{
+    transition-duration: .6s;
+    background-color: rgb(190, 142, 10);
+    color: blanchedalmond;
+}
+.head_name{
+    float: left;
+    color: blanchedalmond;
+    padding-left: 30px;
+}
+.nav-link{
+    float: right;
+}
+
+.head_image{
+    width: 280px;
+}
+.intro{
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+}
+#email{
+    width: 300px;
+    border-width: 2px;
+    border-color: rgb(255, 149, 11);
+    height: 25px;
+    margin-top: -10px;
+    padding: 10px;
+}
+.submit_btn{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 149, 11);
+    border:1px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.submit_btn:hover{
+    background-color: rgb(190, 142, 10);
+    transition-duration: .6s;
+}
+
+.grid {
+    margin-left: 50px;
+    display: flex;
+    margin-top: 60px;
+}
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 130px;
+    color: rgb(14, 238, 227)}
+.fa, .far, .fas {
+        font-family: "Font Awesome 5 Free";}
+ .fa-3x {
+    font-size: 3em;}
+    .fa, .fas {
+        font-weight: 900;
+    }
+    .feature_container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 10px auto;}
+
+.desc{
+    margin-left: 50px;
+}
+.desc h2{
+    padding: 0px;
+    margin-bottom: 0;
+    margin-top: 35px;
+    color: rgb(129, 75, 3);;
+    
+}
+.desc p{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    font-size: 45px;
+    color: rgb(129, 75, 3);
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.video_box{
+    width: 500px;
+}
+.container h2{
+    margin-top: 70px;
+    color: rgb(129, 75, 3);
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(70% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.price_box{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.level{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.product h2{
+    margin-bottom: 10px;
+}
+.product li{
+    list-style-type: none;
+    text-align: center;
+}
+.product ol{
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 0;
+}
+@media (max-width:600px) {
+    .video_box{
+        width: 400px;
+    }
+}
